@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login"
+    android:background="@drawable/monde"
+    >
+
+    <EditText
+        android:id="@+id/authentification"
+        android:layout_width="220dp"
+        android:layout_height="30dp"
+        android:background="#11000000"
+        android:ems="10"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:text="Authentification"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.611"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.196" />
+
+    <EditText
+        android:id="@+id/login"
+        android:layout_width="236dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="160dp"
+
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="64dp"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/ic_action_user"
+        android:ems="10"
+        android:hint="login"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/Password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/authentification" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="233dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginBottom="77dp"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/ic_action_password"
+        android:ems="10"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/validate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login" />
+
+    <Button
+        android:id="@+id/validate"
+        android:layout_width="96dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="183dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="132dp"
+        android:layout_marginBottom="96dp"
+        android:background="@drawable/circle"
+        android:backgroundTint="@color/grey"
+        android:text="Validate"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login"
+        app:layout_constraintVertical_bias="0.548" />
+</androidx.constraintlayout.widget.ConstraintLayout>

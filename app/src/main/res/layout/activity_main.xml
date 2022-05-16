@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/black"
+    >
+
+
+    <EditText
+        android:id="@+id/resultat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="Name"
+        android:textColor="@color/white" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="200dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="#0E0909"
+        android:layout_marginBottom="16dp"
+        >
+
+        <Button
+            android:id="@+id/b7"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:background="@color/white"
+            android:backgroundTint="@color/white"
+            android:hapticFeedbackEnabled="true"
+
+            android:text="7"
+            android:textColor="#0C0B0B"
+            app:strokeColor="#F7FFFFFF" />
+
+        <Button
+            android:id="@+id/b8"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:background="@color/white"
+            android:backgroundTint="@color/white"
+            android:hapticFeedbackEnabled="true"
+            android:shadowColor="#FCFFFFFF"
+            android:text="8"
+            android:textColor="#0C0B0B"
+            android:textColorHighlight="#F3FFFFFF"
+            android:textColorLink="#F3FFFFFF"
+            app:strokeColor="#FAFFFFFF" />
+
+        <Button
+            android:id="@+id/b9"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:background="@color/white"
+            android:backgroundTint="@color/white"
+            android:hapticFeedbackEnabled="true"
+            android:shadowColor="#FCFFFFFF"
+            android:text="9"
+            android:textColor="#0C0B0B"
+            android:textColorHighlight="#F3FFFFFF"
+            android:textColorLink="#F3FFFFFF"
+            app:strokeColor="#FAFFFFFF" />
+
+        <Button
+            android:id="@+id/sum"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:background="@color/grey"
+            android:backgroundTint="@color/grey"
+
+            android:hapticFeedbackEnabled="true"
+
+            android:text="+"
+            android:textColor="#FDFFFFFF"
+            app:strokeColor="#FAFFFFFF" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="#0E0909"
+        android:layout_marginBottom="16dp"
+        >
+
+        <Button
+            android:id="@+id/b4"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:background="@color/white"
+            android:backgroundTint="@color/white"
+            android:hapticFeedbackEnabled="true"
+            android:text="4"
+            android:textColor="#0C0B0B"
+            app:strokeColor="#F7FFFFFF" />
+
+        <Button
+            android:id="@+id/b5"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:background="@color/white"
+            android:backgroundTint="@color/white"
+            android:hapticFeedbackEnabled="true"
+            android:shadowColor="#FCFFFFFF"
+            android:text="5"
+            android:textColor="#0C0B0B"
+            android:textColorHighlight="#F3FFFFFF"
+            android:textColorLink="#F3FFFFFF"
+            app:strokeColor="#FAFFFFFF" />
+
+        <Button
+            android:id="@+id/b6"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:background="@color/white"
+            android:backgroundTint="@color/white"
+            android:hapticFeedbackEnabled="true"
+            android:shadowColor="#FCFFFFFF"
+            android:text="6"
+            android:textColor="#0C0B0B"
+            android:textColorHighlight="#F3FFFFFF"
+            android:textColorLink="#F3FFFFFF"
+            app:strokeColor="#FAFFFFFF" />
+
+        <Button
+            android:id="@+id/substract"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:background="@color/grey"
+            android:backgroundTint="@color/grey"
+
+            android:hapticFeedbackEnabled="true"
+
+            android:text="-"
+            android:textColor="#FDFFFFFF"
+            app:strokeColor="#FAFFFFFF" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="#0E0909"
+        android:layout_marginBottom="16dp"
+        >
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:background="@color/white"
+            android:backgroundTint="@color/white"
+            android:hapticFeedbackEnabled="true"
+            android:text="1"
+            android:textColor="#0C0B0B"
+            app:strokeColor="#F7FFFFFF" />
+
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:background="@color/white"
+            android:backgroundTint="@color/white"
+            android:hapticFeedbackEnabled="true"
+            android:shadowColor="#FCFFFFFF"
+            android:text="2"
+            android:textColor="#0C0B0B"
+            android:textColorHighlight="#F3FFFFFF"
+            android:textColorLink="#F3FFFFFF"
+            app:strokeColor="#FAFFFFFF" />
+
+        <Button
+            android:id="@+id/b3"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:background="@color/white"
+            android:backgroundTint="@color/white"
+            android:hapticFeedbackEnabled="true"
+            android:shadowColor="#FCFFFFFF"
+
+            android:text="3"
+            android:textColor="#0C0B0B"
+            android:textColorHighlight="#F3FFFFFF"
+            android:textColorLink="#F3FFFFFF"
+            app:strokeColor="#FAFFFFFF" />
+
+        <Button
+            android:id="@+id/multi"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:background="@color/grey"
+            android:backgroundTint="@color/grey"
+
+            android:hapticFeedbackEnabled="true"
+
+            android:text="*"
+            android:textColor="#FDFFFFFF"
+            app:strokeColor="#FAFFFFFF" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="#0E0909"
+        android:layout_marginBottom="16dp"
+        >
+
+        <Button
+            android:id="@+id/b0"
+            android:layout_width="242dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:background="@color/white"
+            android:backgroundTint="@color/white"
+            android:hapticFeedbackEnabled="true"
+            android:text="0"
+            android:textColor="#0C0B0B"
+            app:strokeColor="#F7FFFFFF" />
+
+
+        <Button
+            android:id="@+id/divide"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:background="@color/grey"
+            android:backgroundTint="@color/grey"
+
+            android:hapticFeedbackEnabled="true"
+
+            android:text="/"
+            android:textColor="#FDFFFFFF"
+            app:strokeColor="#FAFFFFFF" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="#0E0909">
+
+        <Button
+            android:id="@+id/ac"
+            android:layout_width="156dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:background="@color/orange"
+            android:backgroundTint="@color/orange"
+            android:hapticFeedbackEnabled="true"
+            android:textColor="@color/black"
+            android:text="AC"
+             />
+        <Button
+            android:id="@+id/point"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:background="@color/orange"
+            android:backgroundTint="@color/white"
+
+            android:hapticFeedbackEnabled="true"
+
+            android:text="."
+            android:textColor="@color/black"
+            app:strokeColor="#FAFFFFFF" />
+
+        <Button
+            android:id="@+id/equal"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:background="@color/orange"
+            android:backgroundTint="@color/orange"
+
+            android:hapticFeedbackEnabled="true"
+
+            android:text="="
+            android:textColor="@color/black"
+            app:strokeColor="#FAFFFFFF" />
+
+    </LinearLayout>
+</LinearLayout>
+
+</LinearLayout>
